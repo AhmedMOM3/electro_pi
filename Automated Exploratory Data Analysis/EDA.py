@@ -84,7 +84,7 @@ if x==True:
     tab1, tab2, tab3= st.tabs(["Data", "Unique values",'description'])
     tab1.subheader("there is the data")
     tab1.write(df)
-    tab2.subheader("there are the unique values")
+    tab2.subheader("there is the number of unique values for each column")
     tab2.write(pd.DataFrame(df.nunique()).T)
     tab3.subheader("there is the description of data")
     tab3.write(pd.DataFrame(df.describe()))
