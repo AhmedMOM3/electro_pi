@@ -59,6 +59,9 @@ def histogram(c,selected_col):
 
 
 st.markdown("<h1 style='text-align: center;'>Automated Exploratory Data Analysis</h1>", unsafe_allow_html=True)
+link='''https://github.com/AhmedMOM3/electro_pi/blob/main/EDA.py'''
+st.write(f'#<a target="_blank" href="{link}">`github link`</a>', unsafe_allow_html=True)
+
 x=False
 
 #uploading and reading data
